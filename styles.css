@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "TTLakes";
+    src: url(fonts/TTLakes-Regular.woff) format("woff");
+  }
+
+@font-face {
+    font-family: "TTLakes";
+    src: url(fonts/TTLakes-Bold.woff) format("woff");
+  
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  body {
+    width: 320px;
+    
+    font-family: "TTLakes";
+    margin: 0 auto;
+    float: left; 
+    
+}
+
+.body-content {
+  width: 320px;
+  height:auto;
+  box-shadow: 5px 0 5px -5px gray; 
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 320px;
+    height: auto;
+    background-color: white;
+    margin: 0;
+    padding:0;
+    vertical-align: middle;
+   
+}
+
+.header__menu_burger {
+  margin: 20px 15px 15px 15px;
+}
+
+.header__menu_logo {
+  margin: 15px 70px 15px 15px;
+}
+
+.header__menu_search {
+  margin: 20px 20px 15px 0;
+}
+
+.menu__item {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding:0;
+  width: 320px;
+  margin-top: 25px;
+  list-style: none;
+  
+  
+}
+
+.menu__item a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+ 
+  color:black;
+}
+
+.menu__item a:hover {
+  border-left: 5px solid  rgba(65, 246, 215, 1);
+border-radius: -50px;
+background-color:rgba(200, 200, 200, 0.5);
+box-shadow: 0,5px 0,5px 2px 2px black;
+  
+}
+
+.foter-menu__item {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  width: 305px;
+  height: auto;
+  background-color: white;
+  margin: 0;
+  margin-top: 130px;
+  padding:0;
+  
+  vertical-align: middle; 
+}
+
+.foter-menu__item li {
+  margin-right: 15px;
+}
+
+.foter-menu__item:first-child {
+  margin-left: 15px;
+} 
+
+.mail {
+  width: 320px;
+  height: 30px;
+}
+
+.mail a {
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  color:black;
+}
+
+.mail a:hover {
+  color: blue;
+  font-size: 1.2em; 
+}
+
+.number {
+  width: 320px;
+  height: 35px;
+  margin-top: 10px;
+   margin-left:10px;
+   font-weight:bold;
+  
+}
+
+.number a {
+  display: block;
+  vertical-align: middle;
+}
+
+.lang__item {
+  margin-left: 10px;
+  padding:0; 
+  width: 320px;
+  height: auto;
+  display: flex;
+  justify-content:flex-start;
+  list-style-type: none;
+}
+
+.lang__item li {
+  margin-right: 5px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.lang__item li:active {
+  color: gray;
+}
+
+.lang__item--ru--active {
+  color:gray;
+}
